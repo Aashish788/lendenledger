@@ -2,7 +2,9 @@ export const SEOContent = () => {
   return (
     <div className="sr-only" role="complementary" aria-label="SEO Content">
       {/* Hidden SEO content for better keyword targeting */}
-      <h1>Khatabook: Lenden Ledger - Best Digital Khata App for Business in India</h1>
+      <div className="seo-keywords">
+        <span>Khatabook: Lenden Ledger - Best Digital Khata App for Business in India</span>
+      </div>
       <h2>Free Khatabook Alternative - Download Digital Ledger App</h2>
       <h3>Top Features of Lenden Ledger Khatabook:</h3>
       <ul>
