@@ -11,15 +11,15 @@ export const DownloadSection = () => {
             <div className="space-y-6 sm:space-y-8">
               <div className="space-y-4">
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground">
-                  🚀 Download Best Khatabook App Now!
+                  🚀 Download Lenden Ledger Khatabook App Now!
                 </h2>
                 <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto">
-                  Join 10,000+ business owners who use Lenden Ledger as their trusted digital khatabook for business management
+                  Join 10,000+ business owners who use Lenden Ledger Khatabook as their trusted digital khata for business management
                 </p>
                 
                 {/* SEO Rich Content - Mobile Optimized */}
                 <div className="bg-primary/5 rounded-lg p-4 mt-6">
-                  <h3 className="text-sm sm:text-base font-semibold text-foreground mb-2">🏆 India's Top-Rated Digital Khatabook</h3>
+                  <h3 className="text-sm sm:text-base font-semibold text-foreground mb-2">🏆 India's Top-Rated Lenden Ledger Khatabook</h3>
                   <p className="text-xs sm:text-sm text-muted-foreground">
                     Perfect alternative to traditional khata books. Ideal for retailers, wholesalers, 
                     service providers & small business owners across India.
@@ -50,7 +50,7 @@ export const DownloadSection = () => {
                   onClick={() => window.open('https://play.google.com/store/apps/details?id=com.lendenledger.app', '_blank')}
                 >
                   <Download className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 mr-2 sm:mr-3" />
-                  📱 Download Khatabook for Android
+                  📱 Download Lenden Ledger for Android
                 </Button>
                 
                 <Button 
@@ -65,7 +65,7 @@ export const DownloadSection = () => {
               </div>
 
               <p className="text-xs sm:text-sm text-muted-foreground">
-                📲 Available on Google Play Store • 🔥 Best Khatabook App for Business • iOS Digital Khata launching soon
+                📲 Available on Google Play Store • 🔥 Best Lenden Ledger Khatabook App for Business • iOS Digital Khata launching soon
               </p>
             </div>
           </CardContent>
