@@ -1,14 +1,40 @@
+# Robots.txt for Khatabook: Lenden Ledger - Digital Khata App
+# Optimized for better search engine indexing
+
+# Google Search Console
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
+# Microsoft Bing
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
+# Social Media Crawlers
 User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# General crawlers
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+Crawl-delay: 2
+
+# Sitemap location
+Sitemap: https://lendenledger.com/sitemap.xml
+
+# For better khatabook app discovery
+# Keywords: khatabook, digital khata, business ledger, lenden ledger

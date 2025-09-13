@@ -11,27 +11,36 @@ export const DownloadSection = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h2 className="text-4xl font-bold text-foreground">
-                  Ready to get started?
+                  🚀 Download Best Khatabook App Now!
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                  Join thousands of users who trust Lenden Ledger for their financial management needs
+                  Join 10,000+ business owners who use Lenden Ledger as their trusted digital khatabook for business management
                 </p>
+                
+                {/* SEO Rich Content */}
+                <div className="bg-primary/5 rounded-lg p-4 mt-6">
+                  <h3 className="font-semibold text-foreground mb-2">🏆 India's Top-Rated Digital Khatabook</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Perfect alternative to traditional khata books. Ideal for retailers, wholesalers, 
+                    service providers & small business owners across India.
+                  </p>
+                </div>
               </div>
 
               <div className="flex items-center justify-center space-x-8 text-sm text-muted-foreground">
                 <div className="flex items-center space-x-2">
                   <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  <span>4.8/5 Rating</span>
+                  <span>⭐ 4.8/5 Khatabook Rating</span>
                 </div>
                 <div className="hidden sm:block w-px h-4 bg-border"></div>
                 <div className="flex items-center space-x-2">
                   <Download className="w-4 h-4" />
-                  <span>10K+ Downloads</span>
+                  <span>📱 50K+ App Downloads</span>
                 </div>
                 <div className="hidden sm:block w-px h-4 bg-border"></div>
                 <div className="flex items-center space-x-2">
                   <Smartphone className="w-4 h-4" />
-                  <span>Free Forever</span>
+                  <span>💯 Free Digital Khata</span>
                 </div>
               </div>
 
@@ -43,7 +52,7 @@ export const DownloadSection = () => {
                   onClick={() => window.open('https://play.google.com/store/apps/details?id=com.lendenledger.app', '_blank')}
                 >
                   <Download className="w-6 h-6 mr-3" />
-                  Download for Android
+                  📱 Download Khatabook for Android
                 </Button>
                 
                 <Button 
@@ -53,12 +62,12 @@ export const DownloadSection = () => {
                   disabled
                 >
                   <Smartphone className="w-6 h-6 mr-3" />
-                  iOS Coming Soon
+                  🍎 iOS Khatabook Coming Soon
                 </Button>
               </div>
 
               <p className="text-sm text-muted-foreground">
-                Available on Google Play Store • iOS version launching soon
+                📲 Available on Google Play Store • 🔥 Best Khatabook App for Business • iOS Digital Khata launching soon
               </p>
             </div>
           </CardContent>
