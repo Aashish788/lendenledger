@@ -16,15 +16,15 @@ export const HeroSection = () => {
               </div>
               
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                <span className="block">Best Digital</span>
+                <span className="block">Khatabook</span>
                 <span className="bg-gradient-primary bg-clip-text text-transparent block">
-                  Khatabook App
+                  Lenden Ledger
                 </span>
               </h1>
               
               <p className="text-base sm:text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0">
-                🔥 #1 Khatabook for Business! Track lending, borrowing & payments with smart reminders. 
-                Perfect digital khata alternative for merchants & small business owners.
+                🔥 India's #1 Free Khatabook App! Track lending, borrowing & payments with smart reminders. 
+                Perfect digital khatabook for merchants & small business owners.
               </p>
               
               <div className="flex flex-wrap justify-center lg:justify-start gap-2 sm:gap-3 text-xs sm:text-sm font-medium text-primary">
