@@ -29,8 +29,8 @@ export const Header = () => {
             className="h-8 w-8 sm:h-10 sm:w-10 rounded-lg" 
           />
           <span className="text-base sm:text-xl font-bold text-foreground">
-                        <span className="hidden sm:inline">Khatabook Lenden Ledger</span>
-            <span className="sm:hidden text-sm">Khatabook</span>
+                        <span className="hidden sm:inline">Lenden Ledger</span>
+            <span className="sm:hidden text-sm">Lenden</span>
           </span>
         </div>
         
