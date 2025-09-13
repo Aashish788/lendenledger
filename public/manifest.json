@@ -1,0 +1,41 @@
+{
+  "name": "Khatabook: Lenden Ledger - Best Digital Khata App",
+  "short_name": "Khatabook",
+  "description": "🔥 #1 Khatabook App! Free Digital Khata for Business. Track transactions, manage accounts, send payment reminders.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-IN",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/hero-phone.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "label": "Khatabook App Screenshot"
+    }
+  ]
+}
