@@ -58,18 +58,18 @@ export const FAQSection = () => {
   };
 
   return (
-    <section className="py-20 bg-background">
-      <div className="container mx-auto px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
+    <section className="py-12 sm:py-16 lg:py-20 bg-background">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center max-w-4xl mx-auto mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-4">
             🤔 Frequently Asked Questions about Khatabook App
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-base sm:text-lg lg:text-xl text-muted-foreground">
             Everything you need to know about using Lenden Ledger as your digital khatabook for business
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto space-y-4">
+        <div className="max-w-4xl mx-auto space-y-3 sm:space-y-4">
           {faqs.map((faq, index) => (
             <Card key={index} className="border-border">
               <Collapsible>
@@ -77,13 +77,13 @@ export const FAQSection = () => {
                   className="w-full"
                   onClick={() => toggleItem(index)}
                 >
-                  <CardContent className="p-6">
-                    <div className="flex items-center justify-between text-left">
-                      <h3 className="text-lg font-semibold text-foreground pr-4">
+                  <CardContent className="p-4 sm:p-6">
+                    <div className="flex items-start justify-between text-left gap-4">
+                      <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-foreground flex-1">
                         {faq.question}
                       </h3>
                       <ChevronDown 
-                        className={`w-5 h-5 text-muted-foreground transition-transform duration-200 ${
+                        className={`w-5 h-5 text-muted-foreground transition-transform duration-200 flex-shrink-0 mt-1 ${
                           openItems.includes(index) ? 'rotate-180' : ''
                         }`}
                       />
@@ -91,8 +91,8 @@ export const FAQSection = () => {
                   </CardContent>
                 </CollapsibleTrigger>
                 <CollapsibleContent>
-                  <div className="px-6 pb-6 pt-0">
-                    <p className="text-muted-foreground leading-relaxed">
+                  <div className="px-4 sm:px-6 pb-4 sm:pb-6 pt-0">
+                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                       {faq.answer}
                     </p>
                   </div>
@@ -102,27 +102,27 @@ export const FAQSection = () => {
           ))}
         </div>
 
-        {/* Additional SEO Content */}
-        <div className="text-center mt-16 max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-primary/5 to-secondary/5 rounded-lg p-8">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
+        {/* Additional SEO Content - Mobile Optimized */}
+        <div className="text-center mt-12 sm:mt-16 max-w-4xl mx-auto">
+          <div className="bg-gradient-to-r from-primary/5 to-secondary/5 rounded-lg p-4 sm:p-6 lg:p-8">
+            <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-4">
               🚀 Ready to Transform Your Business with Digital Khatabook?
             </h3>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-sm sm:text-base text-muted-foreground mb-6">
               Join thousands of successful business owners who've switched from paper khata to 
               Lenden Ledger digital khatabook. Download India's most trusted business ledger app today!
             </p>
-            <div className="flex flex-wrap justify-center gap-3 text-sm">
-              <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">
+            <div className="flex flex-wrap justify-center gap-2 sm:gap-3 text-xs sm:text-sm">
+              <span className="bg-primary/10 text-primary px-3 sm:px-4 py-2 rounded-full font-medium">
                 ✅ #1 Rated Khatabook App
               </span>
-              <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">
+              <span className="bg-primary/10 text-primary px-3 sm:px-4 py-2 rounded-full font-medium">
                 ✅ 50,000+ Happy Users
               </span>
-              <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">
+              <span className="bg-primary/10 text-primary px-3 sm:px-4 py-2 rounded-full font-medium">
                 ✅ Free Forever
               </span>
-              <span className="bg-primary/10 text-primary px-4 py-2 rounded-full font-medium">
+              <span className="bg-primary/10 text-primary px-3 sm:px-4 py-2 rounded-full font-medium">
                 ✅ Trusted by Merchants
               </span>
             </div>
